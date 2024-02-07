@@ -296,10 +296,35 @@ header .menu .icon {
 }
 #order .textbox .btn {
   background-color: #36b3bd;
-  padding: 13px 34px;
+  padding: 13px 54px;
   font-size: 20px;
   color: white;
   border-radius: 5px;
+}
+@media (max-width: 992px) {
+  #order .textbox {
+    text-align: center;
+  }
+  #order .textbox h1 {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  #order .textbox h5 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 105px;
+    margin-right: 105px;
+  }
+}
+@media (max-width: 576px) {
+  #order .textbox h1 {
+    margin: auto;
+  }
+  #order .textbox h5 {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
 }
 
 #callour {
