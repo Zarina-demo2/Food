@@ -164,6 +164,8 @@ header .menu .icon {
 }
 #works .box .imgbox {
   width: 350px;
+  margin-right: auto;
+  margin-left: auto;
 }
 #works .box .textbox {
   padding: 35px 55px;
