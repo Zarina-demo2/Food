@@ -254,6 +254,28 @@ header .menu .icon {
   padding: 17px 53px;
   margin-top: 50px;
 }
+@media (max-width: 576px) {
+  #browse .threebtn {
+    flex-direction: column;
+  }
+  #browse .threebtn .mrgnbtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #browse .box {
+    flex-direction: column;
+  }
+  #browse .box .imgbox {
+    margin-left: auto;
+    margin-top: auto;
+  }
+  #browse .box .minibox {
+    flex-direction: column;
+  }
+  #browse .box .minibox h5 {
+    margin-top: 15px;
+  }
+}
 
 #order .imgbox {
   width: 600px;
