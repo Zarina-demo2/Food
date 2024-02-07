@@ -266,11 +266,14 @@ header .menu .icon {
     flex-direction: column;
   }
   #browse .box .imgbox {
-    margin-left: auto;
-    margin-top: auto;
+    margin: auto;
+    width: auto;
   }
   #browse .box .minibox {
     flex-direction: column;
+  }
+  #browse .box .minibox h2 {
+    margin-top: 40px;
   }
   #browse .box .minibox h5 {
     margin-top: 15px;
