@@ -366,10 +366,38 @@ header .menu .icon {
   font-size: 20px;
   color: white;
   background-color: #38b6c1;
-  padding: 13px 34px;
+  padding: 13px 45px;
 }
 #callour .imgbox {
   width: 520px;
+}
+@media (max-width: 992px) {
+  #callour .textbox {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #callour .textbox h5 {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  #callour .textbox .btn {
+    margin-bottom: 60px;
+  }
+  #callour .imgbox {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  #callour .textbox {
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  #callour .textbox {
+    margin: auto;
+  }
 }
 
 #support .textbox h1 {
@@ -386,7 +414,7 @@ header .menu .icon {
   font-size: 22px;
   color: #38b6c1;
   background-color: white;
-  padding: 10px 30px;
+  padding: 13px 60px;
   margin: 30px 0 0 40px;
 }
 #support .bgc {
