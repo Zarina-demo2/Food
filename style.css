@@ -255,6 +255,13 @@ header .menu .icon {
   margin-top: 50px;
 }
 @media (max-width: 768px) {
+  #browse .threebtn {
+    flex-flow: row wrap;
+  }
+  #browse .threebtn .btn {
+    padding: 10px 85px;
+    margin-bottom: 10px;
+  }
   #browse .box {
     padding: 0;
     flex-direction: column;
