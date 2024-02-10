@@ -410,6 +410,8 @@ header .menu .icon {
 #support .textbox {
   background-color: #38b6c1;
   padding-left: 20px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 #support .textbox h1 {
   font-weight: 700;
@@ -428,23 +430,19 @@ header .menu .icon {
   padding: 13px 60px;
   margin: 30px 0 0 40px;
 }
-#support .bgc {
-  background-color: #38b6c1;
-}
 @media (max-width: 992px) {
   #support .textbox {
     background-color: #38b6c1;
   }
   #support .textbox h1 {
     margin: 0;
-    margin-top: 120px;
+    margin-top: 70px;
     margin-right: 150px;
   }
   #support .textbox .btn {
-    margin: 50px 0 100px;
+    margin: 50px 0 70px;
   }
   #support .bgc {
-    background-color: transparent;
     margin-top: 25px;
   }
 }
