@@ -18,7 +18,6 @@ header {
   padding: 20px 0;
 }
 header .menu .imgbox {
-  height: 36px;
   width: 36px;
 }
 header .menu nav a {
@@ -56,7 +55,6 @@ header .menu .icon {
     color: white;
     padding: 10px;
     border-radius: 3px;
-    margin-left: 70%;
   }
 }
 
@@ -300,10 +298,6 @@ header .menu .icon {
 @media (max-width: 576px) {
   #browse .threebtn {
     flex-direction: column;
-  }
-  #browse .threebtn .mrgnbtn {
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
   #browse .box {
     flex-direction: column;
